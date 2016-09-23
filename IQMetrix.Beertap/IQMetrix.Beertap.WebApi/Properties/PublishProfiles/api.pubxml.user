@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Test\api</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>11/29/2014 14:54:16</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.Net4.dll">
+      <publishTime>11/29/2014 14:54:16</publishTime>
+    </File>
+    <File Include="bin/CacheCow.Common.dll">
+      <publishTime>09/12/2014 12:51:22</publishTime>
+    </File>
+    <File Include="bin/CacheCow.Server.dll">
+      <publishTime>09/23/2014 00:42:02</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>04/27/2014 08:50:00</publishTime>
+    </File>
+    <File Include="bin/Castle.Windsor.dll">
+      <publishTime>05/18/2014 07:11:52</publishTime>
+    </File>
+    <File Include="bin/config/log4net.config">
+      <publishTime>09/22/2016 12:53:24</publishTime>
+    </File>
+    <File Include="bin/config/Logging.config">
+      <publishTime>09/16/2016 14:41:44</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/03/2015 00:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/03/2015 00:32:26</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/FSharp.Core.dll">
+      <publishTime>12/08/2014 19:26:08</publishTime>
+    </File>
+    <File Include="bin/IQ.Auth.OAuth2.AccessTokenFormatting.dll">
+      <publishTime>05/05/2015 14:50:56</publishTime>
+    </File>
+    <File Include="bin/IQ.Auth.OAuth2.ProtectedResource.dll">
+      <publishTime>05/05/2015 14:51:00</publishTime>
+    </File>
+    <File Include="bin/IQ.Auth.OAuth2.ProtectedResource.ZeroMQ.dll">
+      <publishTime>05/05/2015 14:51:08</publishTime>
+    </File>
+    <File Include="bin/IQ.Auth.OAuth2.ZeroMQ.dll">
+      <publishTime>05/05/2015 14:51:08</publishTime>
+    </File>
+    <File Include="bin/IQ.Foundation.dll">
+      <publishTime>03/17/2015 16:36:10</publishTime>
+    </File>
+    <File Include="bin/IQ.Foundation.Logging.dll">
+      <publishTime>02/10/2016 08:50:06</publishTime>
+    </File>
+    <File Include="bin/IQ.Foundation.Logging.Log4Net.dll">
+      <publishTime>08/12/2014 14:47:34</publishTime>
+    </File>
+    <File Include="bin/IQ.Foundation.WebApi.dll">
+      <publishTime>03/17/2015 16:37:58</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.Common.dll">
+      <publishTime>12/07/2015 13:44:10</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.Logging.dll">
+      <publishTime>08/25/2015 14:29:46</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.CorsHelpers.dll">
+      <publishTime>08/11/2015 10:55:00</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.DI.AspNet.Windsor.dll">
+      <publishTime>09/18/2015 13:26:16</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.dll">
+      <publishTime>02/10/2016 11:22:30</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.HelpGen.dll">
+      <publishTime>02/09/2016 14:31:42</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.HttpCache.dll">
+      <publishTime>07/23/2015 16:52:08</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.Model.dll">
+      <publishTime>04/16/2015 09:13:26</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Framework.WebApi.Services.dll">
+      <publishTime>02/02/2016 11:39:46</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Hypermedia.Mapping.dll">
+      <publishTime>05/06/2015 13:54:06</publishTime>
+    </File>
+    <File Include="bin/IQ.Platform.Hypermedia.Serialization.dll">
+      <publishTime>02/10/2016 11:22:30</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.ApiServices.dll">
+      <publishTime>09/22/2016 15:19:41</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.Data.dll">
+      <publishTime>09/22/2016 15:19:41</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.Documentation.dll">
+      <publishTime>09/19/2016 11:04:12</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.Model.dll">
+      <publishTime>09/22/2016 15:19:40</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.WebApi.dll">
+      <publishTime>09/22/2016 15:19:42</publishTime>
+    </File>
+    <File Include="bin/IQMetrix.Beertap.WebApiInfra.dll">
+      <publishTime>09/22/2016 15:19:41</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/Log4Mongo.dll">
+      <publishTime>01/18/2014 11:56:10</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>11/23/2013 10:04:16</publishTime>
+    </File>
+    <File Include="bin/Log4Netly.dll">
+      <publishTime>08/16/2014 00:42:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>08/07/2013 10:19:36</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>08/07/2013 10:19:36</publishTime>
+    </File>
+    <File Include="bin/NetMQ.dll">
+      <publishTime>05/05/2015 14:51:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Ploeh.AutoFixture.dll">
+      <publishTime>12/21/2014 16:39:04</publishTime>
+    </File>
+    <File Include="bin/protobuf-net.dll">
+      <publishTime>09/30/2013 09:20:50</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>09/26/2012 18:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Extensions.dll">
+      <publishTime>07/21/2014 13:52:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Primitives.dll">
+      <publishTime>07/21/2014 13:52:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>09/26/2012 18:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Reactive.Core.dll">
+      <publishTime>07/22/2014 15:49:12</publishTime>
+    </File>
+    <File Include="bin/System.Reactive.Interfaces.dll">
+      <publishTime>07/22/2014 15:49:14</publishTime>
+    </File>
+    <File Include="bin/System.Reactive.Linq.dll">
+      <publishTime>07/22/2014 15:49:14</publishTime>
+    </File>
+    <File Include="bin/System.Reactive.PlatformServices.dll">
+      <publishTime>07/22/2014 15:49:16</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>09/26/2012 18:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/08/2012 17:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>10/07/2014 08:46:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/25/2014 17:11:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/08/2012 17:57:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>09/26/2012 18:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/08/2012 17:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/08/2012 17:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/08/2012 17:58:20</publishTime>
+    </File>
+    <File Include="bin/Web.config">
+      <publishTime>09/22/2016 15:48:26</publishTime>
+    </File>
+    <File Include="bin/Web.Debug.config">
+      <publishTime>09/16/2016 14:41:45</publishTime>
+    </File>
+    <File Include="bin/Web.Release.config">
+      <publishTime>09/16/2016 14:41:45</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/01/2014 16:45:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/01/2014 16:46:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/01/2014 16:43:58</publishTime>
+    </File>
+    <File Include="config/log4net.config">
+      <publishTime>09/16/2016 14:41:44</publishTime>
+    </File>
+    <File Include="config/Logging.config">
+      <publishTime>09/16/2016 14:41:44</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/16/2016 14:41:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/22/2016 14:26:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/22/2016 15:48:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

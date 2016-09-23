@@ -1,0 +1,10 @@
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\IQMetrix.Beertap.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\IQMetrix.Beertap.Model.pdb
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\IQ.Platform.Framework.Common.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\IQ.Platform.Framework.WebApi.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\Newtonsoft.Json.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\IQ.Platform.Framework.WebApi.Model.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Release\Newtonsoft.Json.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Release\IQMetrix.Beertap.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Release\IQMetrix.Beertap.Model.pdb
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Release\IQMetrix.Beertap.Model.csprojResolveAssemblyReference.cache

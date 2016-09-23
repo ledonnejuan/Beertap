@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Office";
+}
+
+<h2>Office</h2>
+<div id="officeContainer"></div>
+<script id="officeTmpl" type="text/x-jquery-tmpl">
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>${Id}</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" value="${Name}"/></td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td><input type="text" value="${Location}"/></td>
+        </tr>
+    </table>
+    <input type="submit" value="Update" />
+</script>
+
+<script>
+    $(this)
+        .ready(function() {
+            var link = apiUrl + '@ViewBag.Link';
+            $.get(link,
+                function (data) {
+                    $("#officeTmpl").tmpl(data).appendTo("#officeContainer");
+                });
+        });
+</script>

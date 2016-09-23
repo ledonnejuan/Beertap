@@ -1,0 +1,11 @@
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQMetrix.Beertap.Model.XML
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQMetrix.Beertap.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQMetrix.Beertap.Model.pdb
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQ.Platform.Framework.Common.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Debug\IQMetrix.Beertap.Model.csprojResolveAssemblyReference.cache
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Debug\IQMetrix.Beertap.Model.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.Model\obj\Debug\IQMetrix.Beertap.Model.pdb

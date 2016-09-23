@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "BeerTap";
+}
+
+<h2>BeerTap</h2>
+<div id="kegContainer">
+
+</div>
+<script id="kegTmpl" type="text/x-jquery-tmpl">
+    <div class="row">
+        <div class="col-md-3">Content</div>
+        <div class="col-md-8">${Content}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">State</div>
+        <div class="col-md-8">${KegState}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">Remaining</div>
+        <div class="col-md-8">${Remaining} ml</div>
+    </div>
+    <div>
+        <div>
+            {{if _links.hasOwnProperty('iq:GetBeer') }}
+            <button class="keg-action" data-link="${_links['iq:GetBeer'].href}">Get Beer</button>
+            {{/if}}
+            {{if _links.hasOwnProperty('iq:ReplaceKeg') }}
+            <button class="keg-action" data-link="${_links['iq:ReplaceKeg'].href}">Replace Keg</button>
+            {{/if}}
+        </div>
+    </div>
+</script>
+
+<script>
+    $(this)
+        .ready(function () {
+            getKeg();
+        });
+
+    function getKeg() {
+        debugger;
+        var v = createGuid();
+        var link = apiUrl + '@ViewBag.Link' + "?v=" + v;
+        $.get(link,
+            function (data) {
+                $("#kegContainer").html('');
+                $("#kegTmpl").tmpl(data._embedded.self).appendTo("#kegContainer");
+                initAction();
+            });
+    }
+
+    function initAction() {
+        $('.keg-action').click(function () {
+            var actionUrl = apiUrl + $(this).data('link');
+
+            var data = { Id: 1, Amount: 300 };
+            $.ajax({
+                url: actionUrl,
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                type: 'POST',
+                success: function (result) {
+                    debugger;
+                    getKeg();
+                }
+            });
+        });
+    }
+
+    function createGuid() {
+        function S4() {
+            return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+        }
+        return (S4() + S4() + "-" + S4() + "-4" + S4().substr(0, 3) + "-" + S4() + "-" + S4() + S4() + S4()).toLowerCase();
+    }
+</script>
+

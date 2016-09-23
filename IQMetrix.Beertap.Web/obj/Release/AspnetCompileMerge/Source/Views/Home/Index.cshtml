@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Offices";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="4">Loading...</td>
+    </tr>
+    </tbody>
+</table>
+<script id="officesTmpl" type="text/x-jquery-tmpl">
+    <tr>
+        <td>${Id}</td>
+        <td>${Name}</td>
+        <td>${Location}</td>
+        <td>
+            <a href="../Home/BeerTap?link=${_links['iq:Keg'].href}">Enter</a>
+            &nbsp;|&nbsp;
+            <a href="../Home/Office?link=${_links.self.href}">Edit</a>
+        </td>
+    </tr>
+</script>
+<script>
+    $(this)
+        .ready(function() {
+            $.get(apiUrl + "Offices",
+                function (data) {
+                    $("table.table tbody").html('');
+                    $("#officesTmpl").tmpl(data._embedded.self).appendTo("table.table tbody");
+                });
+        });
+</script>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IQMetrix.Beertap.Model</name>
+    </assembly>
+    <members>
+        <member name="T:IQMetrix.Beertap.Model.BaseModel">
+            <summary>
+            Base Model
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.BaseModel.Id">
+            <summary>
+            Identity
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.BeerMug">
+            <summary>
+            Beer Mug
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.BeerMug.Capacity">
+            <summary>
+            Capacity
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.GetBeer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.GetBeer.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.GetBeer.OfficeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.GetBeer.KegId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.GetBeer.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.IStatefulOffice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.IStatefulOffice.OfficeState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.Keg">
+            <summary>
+            Keg
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.Capacity">
+            <summary>
+            Capacity
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.Remaining">
+            <summary>
+            Remaining
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.OfficeId">
+            <summary>
+            Office Id
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.KegState">
+            <summary>
+            Keg State
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Keg.Office">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.KegState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.KegState.New">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.KegState.GoinDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.KegState.AlmostEmpty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.KegState.SheIsDryMate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.LinkRelations">
+            <summary>
+            iQmetrix link relation names
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.LinkRelations.Office">
+            <summary>
+            link relation to describe the Identity resource.
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.LinkRelations.Keg">
+            <summary>
+            link relation to describe the Identity resource.
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.LinkRelations.Kegs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.LinkRelations.Kegs.ReplaceKeg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.LinkRelations.Kegs.GetBeer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.OfficeState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.OfficeState.Created">
+            <summary>
+            A place exists, and is ready to accept people.
+            POST /Places(123)/Persons
+            </summary>
+        </member>
+        <member name="F:IQMetrix.Beertap.Model.OfficeState.Full">
+            <summary>
+            Place is full. Can't take any more people.
+            DELETE /Places(123)/Persons
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.Office">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Office.Name">
+            <summary>
+            Name for the SampleResource
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Office.Location">
+            <summary>
+            Description for the SampleResource
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.Office.Kegs">
+            <summary>
+            Kegs
+            </summary>
+        </member>
+        <member name="T:IQMetrix.Beertap.Model.ReplaceKeg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.ReplaceKeg.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:IQMetrix.Beertap.Model.ReplaceKeg.OfficeId">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

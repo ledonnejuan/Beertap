@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.Model", "IQMetrix.Beertap\IQMetrix.Beertap.Model\IQMetrix.Beertap.Model.csproj", "{F1BE99C5-041C-4366-9E74-0AD3632A8611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.ApiServices", "IQMetrix.Beertap\IQMetrix.Beertap.ApiServices\IQMetrix.Beertap.ApiServices.csproj", "{006BC5D6-E8BF-40C9-9C9C-A55685624E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.Documentation", "IQMetrix.Beertap\IQMetrix.Beertap.Documentation\IQMetrix.Beertap.Documentation.csproj", "{9BD4668A-6FD1-434D-8213-7E01797DB838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.WebApi", "IQMetrix.Beertap\IQMetrix.Beertap.WebApi\IQMetrix.Beertap.WebApi.csproj", "{4BABD518-15FE-484B-86AD-08595F462DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.IntegrationTests", "IQMetrix.Beertap\IQMetrix.Beertap.IntegrationTests\IQMetrix.Beertap.IntegrationTests.csproj", "{683A3444-B4FA-4FF2-8308-F3CAD3EC011A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{84011A35-F7BF-4A09-9B05-75AE19A64EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.Data", "IQMetrix.Beertap\IQMetrix.Beertap.Data\IQMetrix.Beertap.Data.csproj", "{DE77F539-0102-443B-A659-6D76A0A75CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQMetrix.Beertap.WebApiInfra", "IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\IQMetrix.Beertap.WebApiInfra.csproj", "{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BE99C5-041C-4366-9E74-0AD3632A8611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BE99C5-041C-4366-9E74-0AD3632A8611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BE99C5-041C-4366-9E74-0AD3632A8611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BE99C5-041C-4366-9E74-0AD3632A8611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006BC5D6-E8BF-40C9-9C9C-A55685624E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006BC5D6-E8BF-40C9-9C9C-A55685624E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006BC5D6-E8BF-40C9-9C9C-A55685624E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006BC5D6-E8BF-40C9-9C9C-A55685624E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD4668A-6FD1-434D-8213-7E01797DB838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD4668A-6FD1-434D-8213-7E01797DB838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD4668A-6FD1-434D-8213-7E01797DB838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD4668A-6FD1-434D-8213-7E01797DB838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BABD518-15FE-484B-86AD-08595F462DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BABD518-15FE-484B-86AD-08595F462DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BABD518-15FE-484B-86AD-08595F462DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BABD518-15FE-484B-86AD-08595F462DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683A3444-B4FA-4FF2-8308-F3CAD3EC011A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683A3444-B4FA-4FF2-8308-F3CAD3EC011A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683A3444-B4FA-4FF2-8308-F3CAD3EC011A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683A3444-B4FA-4FF2-8308-F3CAD3EC011A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE77F539-0102-443B-A659-6D76A0A75CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE77F539-0102-443B-A659-6D76A0A75CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE77F539-0102-443B-A659-6D76A0A75CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE77F539-0102-443B-A659-6D76A0A75CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1BE99C5-041C-4366-9E74-0AD3632A8611} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{006BC5D6-E8BF-40C9-9C9C-A55685624E43} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{9BD4668A-6FD1-434D-8213-7E01797DB838} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{4BABD518-15FE-484B-86AD-08595F462DF9} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{683A3444-B4FA-4FF2-8308-F3CAD3EC011A} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{DE77F539-0102-443B-A659-6D76A0A75CDD} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+		{8D7E1CCF-8F78-4C8F-997D-10D29DB2DE8B} = {84011A35-F7BF-4A09-9B05-75AE19A64EDF}
+	EndGlobalSection
+EndGlobal
