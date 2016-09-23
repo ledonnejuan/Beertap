@@ -39,7 +39,7 @@ namespace IQMetrix.Beertap.ApiServices
             //var keg = _kegProvider.GetKeg(kegId);
             //keg.Office = null;
             //resource.Keg = keg;
-            //initial
+            //initial test commit
             return Task.FromResult(resource);
         }
     }
