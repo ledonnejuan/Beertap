@@ -9,7 +9,7 @@ using IQMetrix.Beertap.Model;
 
 namespace IQMetrix.Beertap.Data
 {
-    public class BeertapContext : DbContext
+    public partial class BeertapContext : DbContext
     {
         public BeertapContext() : base("name=BeertapConnectionString")
         {

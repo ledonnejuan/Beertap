@@ -23,7 +23,7 @@ namespace IQMetrix.Beertap.Data.Providers
 
         public List<Keg> GetKegs()
         {
-            return _kegRepository.GetAll().Include(c => c.Office).ToList();
+            return _kegRepository.GetAll().ToList();
         }
 
         public List<Keg> GetKegByOfficeId(int officeId)
@@ -33,7 +33,8 @@ namespace IQMetrix.Beertap.Data.Providers
 
         public void UpdateKeg(int officeId, int kegId, int amount)
         {
-            var keg = _kegRepository.FindBy(c => c.Id == kegId).FirstOrDefault();
+            var keg = _kegRepository.FindBy(c => c.Id == kegId).Include(c => c.Office).FirstOrDefault();
+            
             keg.Remaining = (keg.Remaining - amount) < 0 ? 0 : (keg.Remaining - amount);
 
             var pc = ((double)keg.Remaining / (double)keg.Capacity) * 100;
@@ -46,9 +47,8 @@ namespace IQMetrix.Beertap.Data.Providers
                 keg.KegState = KegState.AlmostEmpty;
             else
                 keg.KegState = KegState.SheIsDryMate;
-            
+            keg.Office.ObjectState = ObjectState.Unchanged;
             _kegRepository.Update(keg);
-            _kegRepository.Save();
         }
 
         public void ReplaceKeg(int officeId, int kegId)
@@ -58,7 +58,6 @@ namespace IQMetrix.Beertap.Data.Providers
             keg.KegState = KegState.New;
 
             _kegRepository.Update(keg);
-            _kegRepository.Save();
         }
     }
 }

@@ -63,14 +63,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BeertapContext.cs" />
+    <Compile Include="BeertapEntities.cs" />
     <Compile Include="BeertapRepository.cs" />
     <Compile Include="IBeertapRepository.cs" />
+    <Compile Include="IDataContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\IKegProvider.cs" />
     <Compile Include="Providers\IOfficeProvider.cs" />
     <Compile Include="Providers\KegProvider.cs" />
     <Compile Include="Providers\OfficeProvider.cs" />
+    <Compile Include="StateHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

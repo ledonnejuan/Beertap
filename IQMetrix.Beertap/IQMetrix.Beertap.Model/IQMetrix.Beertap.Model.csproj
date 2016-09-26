@@ -64,10 +64,12 @@
     <Compile Include="BaseModel.cs" />
     <Compile Include="BeerMug.cs" />
     <Compile Include="GetBeer.cs" />
+    <Compile Include="IObjectState.cs" />
     <Compile Include="IStatefulOffice.cs" />
     <Compile Include="Keg.cs" />
     <Compile Include="KegState.cs" />
     <Compile Include="LinkRelations.cs" />
+    <Compile Include="ObjectState.cs" />
     <Compile Include="OfficeState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Office.cs" />

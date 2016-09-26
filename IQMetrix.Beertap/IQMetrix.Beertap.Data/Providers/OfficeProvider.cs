@@ -18,12 +18,14 @@ namespace IQMetrix.Beertap.Data.Providers
         }
         public Office GetOffice(int id)
         {
-            return _officeRepository.FindBy(c => c.Id == id).Include(c => c.Kegs).FirstOrDefault();
+            //return _officeRepository.FindBy(c => c.Id == id).Include(c => c.Kegs).FirstOrDefault();
+            return _officeRepository.GetById(id);
         }
 
         public List<Office> GetOffices()
         {
-            return _officeRepository.GetAll().Include(c => c.Kegs).ToList();
+            //return _officeRepository.GetAll().Include(c => c.Kegs).ToList();
+            return _officeRepository.GetAll().ToList();
         }
 
         public bool UpdateOffice(Office office)

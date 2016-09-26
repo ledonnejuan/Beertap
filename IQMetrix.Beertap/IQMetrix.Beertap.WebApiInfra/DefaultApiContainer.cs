@@ -74,6 +74,7 @@ namespace IQMetrix.Beertap.WebApiInfra
             _windsorContainer.Register(Component.For(typeof(IBeertapRepository<>)).ImplementedBy(typeof(BeertapRepository<>)));
             _windsorContainer.Register(Component.For<IOfficeProvider>().ImplementedBy<OfficeProvider>());
             _windsorContainer.Register(Component.For<IKegProvider>().ImplementedBy<KegProvider>());
+            _windsorContainer.Register(Component.For<IDataContext>().ImplementedBy<BeertapContext>());
 
         }
 

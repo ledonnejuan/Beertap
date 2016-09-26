@@ -30,16 +30,35 @@ namespace IQMetrix.Beertap.ApiServices
         {
             var officeId = context.UriParameters.GetByName<int>("OfficeId").EnsureValue(() => context.CreateHttpResponseException<Keg>("The placeId must be supplied in the URI", HttpStatusCode.BadRequest));
             var keg = _kegProvider.GetKeg(id);
-            keg.Office = null;
-            return Task.FromResult(keg);
+            var k = new Keg()
+            {
+                Id = keg.Id,
+                Capacity = keg.Capacity,
+                Content = keg.Content,
+                KegState = keg.KegState,
+                OfficeId = keg.OfficeId,
+                Remaining = keg.Remaining
+            };
+            return Task.FromResult(k);
         }
 
         public Task<IEnumerable<Keg>> GetManyAsync(IRequestContext context, CancellationToken cancellation)
         {
             var officeId = context.UriParameters.GetByName<int>("OfficeId").EnsureValue(() => context.CreateHttpResponseException<Keg>("The placeId must be supplied in the URI", HttpStatusCode.BadRequest));
             IEnumerable<Keg> keg = _kegProvider.GetKegByOfficeId(officeId);
-            keg.ForEach(c => c.Office.Kegs = null);
-            return Task.FromResult(keg);
+            
+            var kegs = from k in keg
+                select new Keg()
+                {
+                    Id = k.Id,
+                    Capacity = k.Capacity,
+                    Content = k.Content,
+                    KegState = k.KegState,
+                    OfficeId = k.OfficeId,
+                    Remaining = k.Remaining
+                };
+
+            return Task.FromResult(kegs);
         }
 
         public Task<ResourceCreationResult<Keg, int>> CreateAsync(Keg resource, IRequestContext context, CancellationToken cancellation)

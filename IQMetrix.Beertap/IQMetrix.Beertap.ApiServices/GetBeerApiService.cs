@@ -35,11 +35,8 @@ namespace IQMetrix.Beertap.ApiServices
         {
             var officeId = context.UriParameters.GetByName<int>("OfficeId").EnsureValue(() => context.CreateHttpResponseException<Office>("The placeId must be supplied in the URI", HttpStatusCode.BadRequest));
             var kegId = context.UriParameters.GetByName<int>("Id").EnsureValue(() => context.CreateHttpResponseException<Keg>("The placeId must be supplied in the URI", HttpStatusCode.BadRequest));
+            
             _kegProvider.UpdateKeg(officeId, kegId, resource.Amount);
-            //var keg = _kegProvider.GetKeg(kegId);
-            //keg.Office = null;
-            //resource.Keg = keg;
-            //initial test commit
             return Task.FromResult(resource);
         }
     }

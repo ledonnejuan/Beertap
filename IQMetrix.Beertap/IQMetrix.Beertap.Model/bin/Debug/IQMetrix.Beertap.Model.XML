@@ -14,6 +14,11 @@
             Identity
             </summary>
         </member>
+        <member name="P:IQMetrix.Beertap.Model.BaseModel.ObjectState">
+            <summary>
+            Object State
+            </summary>
+        </member>
         <member name="T:IQMetrix.Beertap.Model.BeerMug">
             <summary>
             Beer Mug

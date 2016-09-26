@@ -9,6 +9,8 @@ C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\CacheCow.Server.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\Castle.Core.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\Castle.Windsor.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.dll
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.SqlServer.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\FSharp.Core.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQ.Auth.OAuth2.AccessTokenFormatting.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQ.Auth.OAuth2.ProtectedResource.dll
@@ -62,7 +64,6 @@ C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQMetrix.Beertap.ApiServices.pdb
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQMetrix.Beertap.Data.pdb
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQMetrix.Beertap.Documentation.pdb
@@ -73,6 +74,8 @@ C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\CacheCow.Server.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\Castle.Core.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\Castle.Windsor.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.xml
+C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.SqlServer.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\FSharp.Core.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQ.Platform.Framework.WebApi.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\IQ.Platform.Framework.WebApi.CorsHelpers.xml
@@ -103,7 +106,6 @@ C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\EntityFramework.xml
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\de\Microsoft.Data.Edm.resources.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\es\Microsoft.Data.Edm.resources.dll
 C:\Test\IQMetrix.Beertap\IQMetrix.Beertap\IQMetrix.Beertap.WebApiInfra\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
